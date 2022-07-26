@@ -1,1 +1,68 @@
-font-family: 'Noto Sans KR', sans-serif;
+/* Default */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 20px;
+  width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* Top_message */
+.top__message {
+  display: flex;
+  justify-content: center;
+}
+
+/* Header */
+.header__top .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top img {
+  width: 194px;
+  height: 40px;
+}
+
+.header__top .search__bar__word {
+  width: 400px;
+  height: 40px;
+}
+
+.header__top .search__bar__btn {
+  width: 50px;
+  height: 40px;
+}
+
+.header__top a {
+  padding: 8px;
+}
+
+#top__nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Side Menu */
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .sub__panel {
+  display: none;
+}
+
+/* Main */
+.main__notice {
+  display: flex;
+  justify-content: center;
+}
